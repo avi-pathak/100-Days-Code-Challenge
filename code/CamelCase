@@ -1,0 +1,3 @@
+"""5. Take an "iNPut SENtenCe" and retrun an "Output Sentence" in Camle Case as result."""
+sen=input("enter sentance") 
+print([x.title() for x in sen[:].split()])
