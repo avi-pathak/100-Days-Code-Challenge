@@ -1,5 +1,11 @@
 """ Find two largest numbers from an array. """
 l=list(int(x) for x in input("enter number seperated by space : ").split())
-l.sort()
-k=len(l)
-print("first largest : {}\nSecond largest : {}".format(l[k-1],l[k-2]))
+max=l[0]
+smax=l[0]
+for x in l[1:]:
+     if x>max:
+          max=x
+for x in l[1:]:
+     if x>smax and x!=max:
+          smax=x
+print("first largest : {}\nSecond largest : {}".format(max,smax))
