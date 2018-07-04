@@ -1,0 +1,5 @@
+""" Find two largest numbers from an array. """
+l=list(int(x) for x in input("enter number seperated by space : ").split())
+l.sort()
+k=len(l)
+print("first largest : {}\nSecond largest : {}".format(l[k-1],l[k-2]))
