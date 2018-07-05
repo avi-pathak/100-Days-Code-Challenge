@@ -1,0 +1,36 @@
+l1=[]
+l2=[]
+def push1(item):
+     return l1.append(item)
+def pop1():
+     if l1:
+          return l1.pop()
+def push2(item):
+     return l2.append(item)
+def pop2():
+     if l2:
+          return l2.pop()
+def eq(item):
+     push1(item)
+def dq():
+     while l1:
+          x=pop1()
+          push2(x)
+     item=pop2()
+     while l2:
+          x=pop2()
+          push1(x)
+     return item
+while True:
+     print("Enter 1 For enqueue 2 For Dqueue And 3 Exit")
+     n=int(input())
+     if n==1:
+          item=int(input("Enter the Element="))
+          eq(item)
+     elif(n==2):
+          if not l1:
+               print("Queue Is Empty")
+          else:
+               item=dq()
+               print(item," is deleted from queue")
+print("Thanks For Using This Pogram")
