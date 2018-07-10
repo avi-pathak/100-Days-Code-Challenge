@@ -1,6 +1,6 @@
-print("PROGRAM TO CHECK SORTED ARRAY WHTHER IT IS SORTED OR NOT")
+print("PROGRAM TO CHECK A SORTED ARRAY WHTHER IT IS SORTED OR NOT")
 print()
-print("the size of the input is 100k")
+print("the size of the input is 10k")
 print()
 def sort():
      flag=False
@@ -20,7 +20,8 @@ def sort():
                     '''
      t2=t.clock()
      print("By Typical Bubble sort")
-     print("O(N^2) Time",t2-t1)
+     print("Sorted")
+     print("O(N^2) Time",t2-t1," Seconds")
 def sort1():
      flag=False
      t1=t.clock()
@@ -39,8 +40,8 @@ def sort1():
                     '''
      t2=t.clock()
      print("By Optimized Bubble sort")
-     print("o(N) Time",t2-t1)
+     print("sorted")
+     print("o(N) Time",t2-t1," Seconds")
 
 sort()
 sort1()
-
