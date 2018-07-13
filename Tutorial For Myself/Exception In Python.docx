@@ -1,0 +1,78 @@
+			EXCEPTION HANDLING
+There are two type of error
+1--syntax error
+2-Runtime error 
+Ex->print(10/0)=====divisiuonByZeroError==runtime error
+Ex=pro(“Hello Python”)=====syntax error
+CONTROL FLOW WITH Try Ecept And finally
+
+			Python’s exception Hierarchy
+
+Base Excepttion
+	Exception
+		Attribute Error
+		Airthematic Error
+			ZeroDivisionError
+			FloatingPoinError
+			OverflowError
+		EOF Error
+		NameError
+		LookupError
+			Index Error
+			Key Error
+		OS Error
+			File Not Found Error 
+			Interrupted Error
+			Permission Error
+TimeOut Error
+		Type Error
+		ValueError
+	SystemExit
+	GeneratorExit
+KeyboardInterrupt	
+
+Every Exception in the Python is class 
+All exception are the child class of the BaseException
+•	Costomized Exception By using Try And Except
+Syntax
+Try:
+	Risky Code
+Except:
+	Handling Code/Alternative Code 
+For example  =:
+Try:
+	Print(10/0)
+Except DivisionByZeror:
+	Print(“Cant divide By Zero”’)
+Example 2: 
+Try:
+	Print(10/0)
+Except DivisionByZero as msg:
+	Print(“Cant divide By Zero The Problem is ”,msg’) 
+Example 3:
+Try:
+	print(“Ten/0”)
+	print(“10/0”)
+Except (ValueError,DivisionByZero) as msg:
+	Print(“Invalid input The Problem is ”,msg’)
+
+				
+
+Flow Control with try Except And Finally
+Try:
+	Stmt1
+	Stmt2
+	Stmt3
+Ecept ValueError:
+	Stm4
+Finally:
+	Stm5
+Stm6
+
+1)    if no  exception 1,2.3,,5,6
+2)    if an exception raised at 2 and matched except block is available then 1 4 5 6   (NORMAL TERMINATION)
+3)  if an exception raised at 2 and matched except block is NOT available then 1 5 	(ABNORMAL TERMINATION)
+4) if an exception raised at 4 it is always abnormal termination ,but before AT stmt 5 will be excuted bcoz it is in finally block 
+5) if exception raised at 5 then it is always abnormal termination
+
+Note===alone except is called the default except at it must be added at the last of our code otherwise it will give an error 
