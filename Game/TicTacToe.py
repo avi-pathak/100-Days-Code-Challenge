@@ -33,9 +33,9 @@ def whoWins(char):
 show()
 while True:
      if whoWins('*'):
-          print('Computer Wins')
+          print('--------------Computer Wins---------------')
           break;
-     key=int(input("enter the postion wheree you want to start:  "))
+     key=int(input("enter the postion where you want to start:  "))
      if isempty(key):
           list[key]='#'
      else:
@@ -43,7 +43,7 @@ while True:
      while True:
           comp=randint(0,8)
           if whoWins('#'):
-               print('YOU WIN')
+               print('---------------YOU WIN------------------')
                break;
           elif allFull():
                print("---------------Match Draw----------------")
