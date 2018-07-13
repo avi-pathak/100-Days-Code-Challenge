@@ -32,12 +32,6 @@ def whoWins(char):
           return True
 show()
 while True:
-     if allFull():
-          print("Match Draw")
-          break
-     if whoWins('#'):
-          print('YOU WIN')
-          break;
      if whoWins('*'):
           print('Computer Wins')
           break;
@@ -45,10 +39,16 @@ while True:
      if isempty(key):
           list[key]='#'
      else:
-          print("the postion is already taken tru anather One ")
+          print("the postion is already taken try anather One ")
      while True:
           comp=randint(0,8)
-          if isempty(comp):
+          if whoWins('#'):
+               print('YOU WIN')
+               break;
+          elif allFull():
+               print("---------------Match Draw----------------")
+               break;
+          elif isempty(comp):
                list[comp]='*'
                show()
                break
