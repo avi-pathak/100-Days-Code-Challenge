@@ -1,0 +1,56 @@
+i learnt today something about the access Modiefer ther are some point which i dont want top forget thats why i mawritting it down
+
+there are 4 typr of access modiefier in java 
+1. private
+2. protected
+3.<default>
+4.public
+
+Private:
+------------------------
+private is also known as ristricted access modfire 
+--->we can not access private method variable from the out of the clas
+
+---->a class can not acces even by creatring its object
+
+---->private memeber are only available within the class
+---->>> For outer Class private temninology uis not applicable if we trying to make a outer class private the definatly a error will accor
+------>if a class extend the other class which have some private member then also it can not be available for the sub class
+-
+Protected:
+------------------
+protected are available with in the class and also available within the pacakage we can access them by simply creating the object 
+
+procted mewmbner are the always available for its dub class 
+
+protected members are avail for other package only if that pacakge's class is the the sub class
+
+ For outer Class private temninology uis not applicable if we trying to make a outer class private the definatly a error will accor
+ 
+ <default>
+ ----------------------------------
+ 
+ 
+default access modiefier are also known as package specifier we can accesse them by creating the object of the class then by that object 
+we can accese te default member of the class
+
+for class level there are availabilty to make a class a default class But there are no syntax of default:
+exaple:
+class a
+{
+  ----
+  -----
+}
+this class will be refer as the default class and it will be avaiable with in the package
+
+PUBLIC:
+--------------------
+
+public is accsessable from any where No matter we are in the pacakage or we are in the other package we vcan use 
+the public member by simple creating the the object of that class 
+
+---->there no ristriction for public member even if a class is not sub class of that class which has the Public member we can use 
+them.
+
+
+this is all about wat i learn today........
