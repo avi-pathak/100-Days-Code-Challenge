@@ -1,0 +1,53 @@
+Interface:
+------------
+---> interface are able to allow only abstract method.
+---> For Interface are able to declare refrence variavle we are unable to creat object.
+---> In Interfaces Bydefault All variable are "public static final" not required 
+     declare explicitly
+---> In interfaces Bydefault all method "public and abstract", nopt required to declare
+     explicitly
+---> interfaces will provide more sharebility when compared to cloass and abstractv classes
+
+
+Procedure To use Interfaces In JAVA application:
+----------------------------------------------------
+1. Declare an interface by using interface Keyword
+2. Declare variable amd method as per the requirement
+3. Declare an Implementation Class for the interface
+4. Provide implementation for abstract method in Implementation Class
+5. In main class, in main merthod creat the object implementaiojn class or declare
+   refrence variable ether for implemtation class or the interface
+6. Access the interface member.
+
+Note: if we declare refrence variable for interface then we are able to access only interface
+      member we are unable to access implemtation member...But if we declare refrence variable for the implementation
+      class then we are able to acxcess both interface member and the implmentation members
+ 
+
+
+Q: What are the diffrence b/we classes abstract classes and interfaces?
+-------------------------------------------------------------------------------
+1. Classes are able to allow only concrete method.
+   Abstract class are ableto allow bot abstract method method concrete method
+   Interface are able to allow only abstract class.
+   
+2. to declare Class only class keyword is enough
+   To declare abstract class for keyword we nee to add "abstract" along with class
+   To declare abstract class for keyword we need to named as interface
+
+3. for class we are able to declare refe. variable as well as object
+   for abtract class and interface  we are able to declare only the reference variable
+
+4. Incase of interface byudefault all variable is puslic static final
+   Nodefault case existed
+
+5. Incase of interface byudefault all method is public and abstract
+   No default classes and default xases existed
+6. In classes and abstract class constructor is possible
+   
+7. In interface, static block is possible and instance blosck are possible
+   In class and abstract class static block is possible and instance blosck are NOT possible
+
+8. class provide less shareablity
+   abstract class provide middle shareablity
+   interface provide more shareablity
