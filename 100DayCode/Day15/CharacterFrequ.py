@@ -11,4 +11,9 @@ print(d)
 
 s=input("enter string")
 for x in s:
-        print("%s : %d"%(x,s.count(x)))
+        print("%s : %d"%(x,s.count(x)))\
+        
+#3rd Approach
+s=input("enter string")
+print({x:s.count(x) for x in s})
+
