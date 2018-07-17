@@ -1,0 +1,56 @@
+A[Access Modifier ]
+
+
+1. Method Signature 
+2. Method prototype
+
+public static Class firName(String class_name) throw ClassNotFoundException
+{
+-----
+}
+public,static Class_Type-------->Method Signature
+
+public,static Class firName(String class_name) throw ClassNotFoundException
+
+Two Methode Type
+
+1 Accesser Method
+2 Mutator Method
+
+Q- what is the diffrene b/w accesser method and mutator method?
+---------------------------------------------------------------
+ans-
+-------
+accesser method is used to get the datta odf the object
+
+Mutator metod is used to set the data in the object
+-----------------------------------------------------------
+
+object creation process
+-----------------------------
+object is a block of memory to store data
+
+object store data temprary
+
+if want to access the class member(excluding static) we have to make object of that class
+
+
+class A
+{
+	int a=10
+	float f=1.002f
+}
+class test
+{
+	public static void main(String[] args)
+	{
+		A a= new A()
+		//hwere new 
+	}
+}
+Object creation proccess:
+--------------------------
+1. jvm find new keyword
+2. jvm calculate the storaage of the clASS
+3. heap mangaer allocate the block of memory and return the hax code to jvm
+4. jvm convert that hashcode in its hex value and give in the form of refrence variable
