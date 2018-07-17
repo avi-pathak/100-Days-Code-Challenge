@@ -1,6 +1,6 @@
 def takeInput(section):
      m=int(input("enter the number of student: "))
-     l=[['']*(m)]
+     l=[[''] for x in range(m)]
      for x in range(m):
           n=0
           print(l)
@@ -12,8 +12,8 @@ def takeInput(section):
 import csv
 with open('Student.csv','w') as newFile:
      section=['Student_Name','Roll NO','Marks']
-     csv_writter=csv.DictWriter(newFile,fieldnames=section,delimiter='\t')
-     csv_writter.writeheader()
+     csv_writter=csv.writer(newFile,delimiter='\t')
+     csv_writter.writerow(['Student_Name','Roll NO','Marks'])
      l=takeInput(section)
      for x in range(len(l)):
-          csv_writter.writerow(l[0])
+          csv_writter.writerow(l[x])
