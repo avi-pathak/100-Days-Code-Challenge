@@ -1,0 +1,18 @@
+Var-arg Method:[JDK1.5 version]
+----------------
+it java normal method it is having varibal argument parameter
+
+Data_Type ...
+
+void m(int ... a)
+{
+-------
+}
+m1();
+m2(10);
+m2(10,20);
+m2(10,20,30);
+
+void m(int ...a,float b)//not posasible
+
+void m(float b,int ...a)//possible
