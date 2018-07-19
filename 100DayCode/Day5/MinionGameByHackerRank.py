@@ -1,6 +1,4 @@
 def minion_game(string):
-    # your code goes here
-    #s = raw_input()
 
     vowels = 'AEIOU'
 
@@ -18,3 +16,5 @@ def minion_game(string):
         print "Stuart", stusc
     else:
         print "Draw"
+string=input()
+minion_game(string)
