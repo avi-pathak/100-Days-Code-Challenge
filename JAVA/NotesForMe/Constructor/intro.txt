@@ -1,0 +1,17 @@
+1.contructor is use to cionstrut object
+
+2.CXonstruct is excuted at the time of boject creation neither before the object creation nor adfter the object creation
+
+3.Construct is use to povidew intial value to the class
+
+4.Constructor is use to intilize class level varivable
+
+5.Contructor name shold be as its class name.
+
+6.Contructor does not nHave any return Type
+
+7.Contructror does not allow access modifir like static final abstract
+
+8.Contructor Does allow access modifier private and protected
+
+9.Constructor is use tyo throw key word t by pass the genetrated expection to current contructo to caller Contructor
