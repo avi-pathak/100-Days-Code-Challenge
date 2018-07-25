@@ -16,10 +16,18 @@ Then, the output should be:
 {1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64}
 
 
-Question3:
+Question4:
 Write a program which accepts a sequence of comma-separated numbers from console and generate a list and a tuple which contains every number.
 Suppose the following input is supplied to the program:
 34,67,55,33,12,98
 Then, the output should be:
 ['34', '67', '55', '33', '12', '98']
 ('34', '67', '55', '33', '12', '98')
+
+
+
+Question5:
+Define a class which has at least two methods:
+getString: to get a string from console input
+printString: to print the string in upper case.
+Also please include simple test function to test the class methods.
