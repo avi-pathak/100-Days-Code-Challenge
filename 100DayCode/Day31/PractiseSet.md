@@ -15,3 +15,8 @@ between:1
 choosing:1  
 or:2  
 to:1  
+Question 2:
+-------------:
+    Write a method which can calculate square value of number
+
+
