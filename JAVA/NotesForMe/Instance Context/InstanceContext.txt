@@ -2,6 +2,11 @@ Intance Context:
 -------------------
 1: Static Context
 2: Instance Context
+Static Context:
+---------------------
+while creating the object jvm load the byte code of the class in memmory(Method Area) After loading it will creat object....
+Whenever the bytecode loaded int the memory trhe seperate context is created thqat context is called the static context.
+----------------------------------------------------------------------------------------------------------------------------------
 
 Instance Context:
 ------------------
