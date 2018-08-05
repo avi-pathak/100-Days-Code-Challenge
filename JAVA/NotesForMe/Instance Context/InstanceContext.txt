@@ -1,0 +1,47 @@
+Intance Context:
+-------------------
+1: Static Context
+2: Instance Context
+
+Instance Context:
+------------------
+1.Instance variable
+2.Instance Method
+3.Instance Block
+
+Instance Variable:
+--------------------
+1.these variable are java variable whose balue variedc from one instance to another
+
+2. Instance variable are recongnized and intialized before excuting the
+   class constructor
+
+3. In gewneral instance variable are declared at class level not at local
+
+4. instance variable data will be stored in heap memory in the form of object.
+
+5.to access instance variables we must creat object for the respective class and we must use the
+  genrated refrence variable,not possibvle with class name.
+
+6. of we access any instance variable by using reference variable whose valkue is null the 
+   it generate Error.
+-------------------------------------------------------------------------------------
+
+Instance Method:
+-------------------
+1. Its is a java method it will be recognized and excuted at the time calling the function.
+------------------------------------------------------------------------------------------------
+
+Instance Blocks:
+---------------------
+It is a set of instruction which must be recognized and excuted automatically just before excuting the respective class constructor.
+
+Syntax:
+--------
+{
+	--------
+	--------
+	-------
+}
+
+For coding example got to the code folder in java
