@@ -4,8 +4,8 @@ class A
 	int b=20;
 	A(int a,int b)
 	{
-		System.out.println(a+"   "+b);
-		System.out.println(this.a+"   "+this.b);
+		System.out.println(a+"   "+b);//print the local variable
+		System.out.println(this.a+"   "+this.b);//it will print the class level variable
 	}
 }
 class test1
