@@ -1,6 +1,8 @@
 Question 1:
 ---------------------
-[HackerRank Finding The Percentage](https://www.hackerrank.com/challenges/finding-the-percentage/problem)       [Solution](https://github.com/Avi-1996/100DaysCodeChallenge/blob/master/100DayCode/Day39/Ques1.py)
+[HackerRank Finding The Percentage](https://www.hackerrank.com/challenges/finding-the-percentage/problem)       
+
+[Solution](https://github.com/Avi-1996/100DaysCodeChallenge/blob/master/100DayCode/Day39/Ques1.py)
 
 Question 2:
 --------------
