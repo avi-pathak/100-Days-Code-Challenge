@@ -17,3 +17,7 @@ Question 4:
 Question 5:
 -------------
 [HackerRank Text wrap](https://www.hackerrank.com/challenges/text-wrap/problem?h_r=next-challenge&h_v=legacy)
+
+Question 6:
+---------------
+[HackerRank Merge The Tools!](https://www.hackerrank.com/challenges/merge-the-tools/problem)
