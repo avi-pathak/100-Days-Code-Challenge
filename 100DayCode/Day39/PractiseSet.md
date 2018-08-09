@@ -9,3 +9,7 @@ Question 2:
 Question 3:
 -------------
 [hackerRank Alphabet Rangole](https://www.hackerrank.com/challenges/alphabet-rangoli/problem)
+
+Question 4:
+----------------
+[HackerRankk Text Alignment](https://www.hackerrank.com/challenges/text-alignment/problem) 
