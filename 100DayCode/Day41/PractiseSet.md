@@ -16,3 +16,9 @@ Question 2:
 [Symtric Diffrence By HackRank](https://www.hackerrank.com/challenges/symmetric-difference/problem)
 
 [See Solution Here](https://github.com/Avi-1996/100DaysCodeChallenge/new/master/100DayCode/Day41/Ques2.py)
+
+Question 3:
+-----------------
+[Set discard remove pop](https://www.hackerrank.com/challenges/py-set-discard-remove-pop/problem?h_r=next-challenge&h_v=zen)
+
+[See Solution Here](https://github.com/Avi-1996/100DaysCodeChallenge/new/master/100DayCode/Day41/Ques3.py)
