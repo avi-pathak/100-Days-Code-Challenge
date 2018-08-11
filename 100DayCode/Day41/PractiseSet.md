@@ -22,3 +22,9 @@ Question 3:
 [Set discard remove pop](https://www.hackerrank.com/challenges/py-set-discard-remove-pop/problem?h_r=next-challenge&h_v=zen)
 
 [See Solution Here](https://github.com/Avi-1996/100DaysCodeChallenge/new/master/100DayCode/Day41/Ques3.py)
+
+Question 4:
+--------------
+[hacker Rank check superset Problem](https://www.hackerrank.com/challenges/py-check-strict-superset/problem)
+
+[See The solution Here](https://github.com/Avi-1996/100DaysCodeChallenge/new/master/100DayCode/Day41/Ques4.py)
