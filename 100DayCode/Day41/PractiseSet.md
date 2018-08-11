@@ -9,3 +9,10 @@ f(n)=f(n-1)+f(n-2) if n>1
 Please write a program to compute the value of f(n) with a given n input by console.  
 
 [See Solution Here](https://github.com/Avi-1996/100DaysCodeChallenge/new/master/100DayCode/Day40/Ques1.py)
+
+Question 2:
+-------------
+
+[Symtric Diffrence By HackRank](https://www.hackerrank.com/challenges/symmetric-difference/problem)
+
+[See Solution Here](https://github.com/Avi-1996/100DaysCodeChallenge/new/master/100DayCode/Day40/Ques2.py)
