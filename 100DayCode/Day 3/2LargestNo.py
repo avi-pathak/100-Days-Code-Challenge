@@ -2,7 +2,7 @@
 
 
 l=list(int(x) for x in input("enter number seperated by space : ").split())
-max=list(l[:2])
+max=list(l[:2])     
 if max[0]<l[1]:
      max[0]=l[1]   # "this if condition sort the list element so that max[0]>max[1]""" 
      max[1]=l[0]
