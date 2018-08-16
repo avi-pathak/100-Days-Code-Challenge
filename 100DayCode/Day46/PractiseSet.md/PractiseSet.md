@@ -6,6 +6,6 @@ Question 1:
 
 Question 2:
 ------------
-[Compress The String By HackerRank]
+[Compress The String By HackerRank](https://www.hackerrank.com/challenges/compress-the-string/problem?h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen)
 
 [See Solution Here](https://github.com/Avi-1996/100DaysCodeChallenge/blob/master/100DayCode/Day46/Ques2.py)
