@@ -27,3 +27,9 @@ Question 5:
 [Transpose and FlattenBy HackerRank numpy Section](https://www.hackerrank.com/challenges/np-transpose-and-flatten/problem)
 
 [See Solution Here](https://github.com/Avi-1996/100DaysCodeChallenge/blob/master/100DayCode/Day49/Ques5.py)
+
+Question 6:
+-------------
+[Map And Lambda By HackerRank functional Section](https://www.hackerrank.com/challenges/np-transpose-and-flatten/problem)
+
+[See Solution Here](https://github.com/Avi-1996/100DaysCodeChallenge/blob/master/100DayCode/Day49/Ques6.py)
