@@ -18,6 +18,12 @@ Question 3:
 
 Question 4:
 -------------
-[Athelet By HackerRank Built_in Section](https://www.hackerrank.com/challenges/python-integers-come-in-all-sizes/problem)
+[Athelet sort By HackerRank Built_in Section](https://www.hackerrank.com/challenges/python-sort-sort/problem)
 
 [See Solution Here](https://github.com/Avi-1996/100DaysCodeChallenge/blob/master/100DayCode/Day49/Ques4.py)
+
+Question 5:
+-------------
+[Transpose and FlattenBy HackerRank numpy Section](https://www.hackerrank.com/challenges/np-transpose-and-flatten/problem)
+
+[See Solution Here](https://github.com/Avi-1996/100DaysCodeChallenge/blob/master/100DayCode/Day49/Ques5.py)
