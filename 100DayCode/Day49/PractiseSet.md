@@ -15,3 +15,9 @@ Question 3:
 [Integers Come In All Sizes By HackerRank Maths Section](https://www.hackerrank.com/challenges/python-integers-come-in-all-sizes/problem)
 
 [See Solution Here](https://github.com/Avi-1996/100DaysCodeChallenge/blob/master/100DayCode/Day49/Ques3.py)
+
+Question 4:
+-------------
+[Athelet By HackerRank Built_in Section](https://www.hackerrank.com/challenges/python-integers-come-in-all-sizes/problem)
+
+[See Solution Here](https://github.com/Avi-1996/100DaysCodeChallenge/blob/master/100DayCode/Day49/Ques4.py)
