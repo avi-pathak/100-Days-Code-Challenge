@@ -1,6 +1,10 @@
 cube = lambda x: (x*x*x)# complete the lambda function 
 
 def fibonacci(n):
+    if n==0:
+        return []
+    elif n==1:
+        return [0]
     l=[0,1]
     first=0
     second=1
