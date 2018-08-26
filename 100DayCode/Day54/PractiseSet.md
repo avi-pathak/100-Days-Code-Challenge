@@ -11,3 +11,5 @@ If the following n is given as input to the program:
 Then, the output of the program should be:  
 
 0,2,4,6,8,10  
+
+[See Solution Here](https://github.com/Avi-1996/100DaysCodeChallenge/blob/master/100DayCode/Day54/Ques1.py)
