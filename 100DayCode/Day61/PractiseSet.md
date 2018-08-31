@@ -2,13 +2,13 @@ Problem 1
 ----------------
 Some people say ‘The shortest distance between two points is a straight line.’ However, this depends on the distance metric employed. Between points (x1,y1) and (x2,y2), the Euclidean (aka straight-line) distance is  
 
-(x1−x2)2+(y1−y2)2−−−−−−−−−−−−−−−−−−√  
+√((x1−x2)2+(y1−y2)^2)  
 However, other distance metrics are often useful. For instance, in a city full of buildings, it is often impossible to travel in a straight line between two points, since buildings are in the way. In this case, the so-called Manhattan (or city-block) distance is the most useful:  
 
 |x1−x2|+|y1−y2|  
 Both Euclidean and city-block distance are specific instances of what is more generally called the family of p-norms. The distance according to norm p is given by  
 
-(|x1−x2|p+|y1−y2|p)1/p  
+(|x1−x2|^p+|y1−y2|^p)^1/p  
 If we look at Euclidean and Manhattan distances, these are both just specific instances of p=2 and p=1, respectively.   
 
 For p<1 this distance measure is not actually a metric, but it may still be interesting sometimes. For this problem, write a program to compute the p-norm distance between pairs of points, for a given value of p.  
@@ -30,4 +30,4 @@ Sample Output 1
 2.0000000000  
 20.3636957882  
 
-[SeeSolution Here](https://github.com/Avi-1996/100-Days-Code-Challenge/blob/master/100DayCode/Day61/PractiseSet.md)
+[SeeSolution Here](https://github.com/Avi-1996/100-Days-Code-Challenge/blob/master/100DayCode/Day61/Ques1.py)
