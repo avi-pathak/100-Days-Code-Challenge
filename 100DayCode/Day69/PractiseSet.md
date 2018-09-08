@@ -6,7 +6,7 @@ The academic office at the Hogwarts School of Witchcraft and Wizardry has compil
 Information about courses  
 Line format: Course Code~Course Name~Semester~Year~Instructor  
 Information about students  
-Line format: Roll Number~Full Name  
+Line format: Roll Number"~"Full Name  
 Information about grades  
 Line format: Course Code~Semester~Year~Roll Number~Grade  
 The possible grades are A, AB, B, BC, C, CD, D with corresponding grade points 10, 9, 8, 7, 6, 5 and 4. The grade point average of a student is the sum of his/her grade points divided by the number of courses. For instance,   
