@@ -10,3 +10,5 @@ e) Weekday of the week
 f) Day of year  
 g) Day of the month  
 h) Day of week  
+
+[See solution Here](https://github.com/Avi-1996/100-Days-Code-Challenge/blob/master/100DayCode/Day99/Ques.py)
